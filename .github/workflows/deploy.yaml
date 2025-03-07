@@ -9,7 +9,7 @@ jobs:
     build-deploy:
       runs-on: ubuntu-latest
       steps:
-        - name: Checkout codes
+        - name: Checkout codes for personal dashbaord
           uses: actions/checkout@v3
 
         - name: Setup Node.js
